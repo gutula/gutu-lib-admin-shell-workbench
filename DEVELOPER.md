@@ -35,6 +35,7 @@ Provides the shared workbench primitives that host apps use to mount consistent 
 | Package ID | `admin-shell-workbench` |
 | Display Name | Admin Shell Workbench |
 | Import Name | `@platform/admin-shell-workbench` |
+| Canonical Namespace Target | `@gutu/admin-shell-workbench` |
 | Version | `0.1.0` |
 | UI Surface | React UI + typed helpers |
 | Consumption Model | Imports + typed UI primitives |
@@ -48,6 +49,7 @@ Provides the shared workbench primitives that host apps use to mount consistent 
 | Dev Dependencies | None |
 | React Runtime | Yes |
 | Workspace Scoped | Yes |
+| Legacy Compatibility IDs | `@platform/admin-shell-workbench` |
 
 ### Dependency interpretation
 

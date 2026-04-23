@@ -6,11 +6,11 @@
     "framework/libraries/*"
   ],
   "scripts": {
-    "build": "bun --cwd framework/libraries/admin-shell-workbench run build",
-    "typecheck": "bun --cwd framework/libraries/admin-shell-workbench run typecheck",
-    "lint": "bun --cwd framework/libraries/admin-shell-workbench run lint",
-    "test": "bun --cwd framework/libraries/admin-shell-workbench run test",
-    "test:unit": "bun --cwd framework/libraries/admin-shell-workbench run test:unit",
+    "build": "bun run --cwd framework/libraries/admin-shell-workbench build",
+    "typecheck": "bun run --cwd framework/libraries/admin-shell-workbench typecheck",
+    "lint": "bun run --cwd framework/libraries/admin-shell-workbench lint",
+    "test": "bun run --cwd framework/libraries/admin-shell-workbench test",
+    "test:unit": "bun run --cwd framework/libraries/admin-shell-workbench test:unit",
     "docs:summary": "node scripts/docs-summary.mjs",
     "docs:check": "node scripts/docs-check.mjs"
   }

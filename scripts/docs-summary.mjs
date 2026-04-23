@@ -3,6 +3,7 @@ const summary = {
   "repoName": "gutu-lib-admin-shell-workbench",
   "packageId": "admin-shell-workbench",
   "displayName": "Admin Shell Workbench",
+  "packageCount": 1,
   "group": "Admin Experience",
   "maturity": "Hardened",
   "description": "Admin Shell Workbench reusable library exports.",

@@ -45,6 +45,7 @@ Why this tier:
 | --- | --- |
 | Package ID | `admin-shell-workbench` |
 | Import Name | `@platform/admin-shell-workbench` |
+| Canonical Namespace Target | `@gutu/admin-shell-workbench` |
 | UI Surface | React UI + typed helpers |
 | Consumption Model | Imports + typed UI primitives |
 | Verification | Build+Typecheck+Lint+Test |
@@ -54,10 +55,18 @@ Why this tier:
 | Field | Value |
 | --- | --- |
 | Package Name | `@platform/admin-shell-workbench` |
+| Canonical Namespace Target | `@gutu/admin-shell-workbench` |
+| Legacy Compatibility IDs | `@platform/admin-shell-workbench` |
 | Direct Dependencies | `@platform/admin-builders`, `@platform/admin-contracts`, `@platform/admin-formview`, `@platform/admin-listview`, `@platform/admin-reporting`, `@platform/admin-widgets`, `@platform/chart`, `@platform/command-palette`, `@platform/router`, `@platform/telemetry-ui`, `@platform/ui`, `@platform/ui-kit`, `@platform/ui-router`, `@platform/ui-shell`, `react` |
 | Peer Dependencies | None |
 | React Runtime | Yes |
 | Workspace Requirement | Compatible Gutu workspace required |
+
+## Namespace Policy
+
+- `@gutu/*` is the canonical public framework namespace for new work.
+- This repo currently publishes `@platform/admin-shell-workbench` as the legacy compatibility package id while the migration to `@gutu/admin-shell-workbench` is completed.
+- Catalog metadata carries the canonical target id so dashboards, docs, and future tooling can present one uniform Gutu namespace without breaking current consumers.
 
 ## Capability Matrix
 
